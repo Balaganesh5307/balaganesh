@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 5rem;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    background:black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: yellow;
+}
+
+#navbarSupportedContent a{
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s ease-out;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid yellow;
+    transform: scale(1.1);
+}
+#navbarSupportedContent button{
+    color:black;
+    background-color: yellow;
+    width: 5rem;
+    border-radius: 8px;
+    border: none;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/*Home*/
+
+#home{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url('wp2112199.webp');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+#home h1{
+    font-size: 100px;
+    color: white;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+                
+}
+#home p{
+    font-size: 25px;
+    color: white;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+.btn-signin{
+    color: white;
+    background: blue;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+/*About*/
+
+#about h1{
+    font-weight: 800;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+/*Products*/
+
+#products{
+    background: grey;
+}
+#products h1{
+    font-size: 40px;
+    font-weight:650;
+    letter-spacing: 2px;
+}
+#products img{
+    width: 252px;
+    height: 252px;
+}
+.card{
+    width: 254px;
+    height: 254px;
+    background: #e5e5e5 !important;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+  
+}
+ .container img{
+    width: 400px;
+    height: 100%;
+ }
+.box{
+    width: 80% !important;
+    margin-top: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+form button{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*Footer*/
+footer{
+    text-align: center;
+    color: grey;
+    padding: 15px;
+}
+footer span{
+    font-weight: bold;
+    color: blue ;
+}
