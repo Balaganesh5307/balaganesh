@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <form action="" id="form">
+        <form action="index.html" id="form" onsubmit="return(validateInputs());>
             <h1>Sign In</h1>
             <div class="input-group">
                 <label for="username">Username</label>
@@ -26,9 +26,7 @@
                 <input type="password" id="password" name="password">
                 <div class="error"></div>
             </div>
-            <div align="center">
-                <a href="index.html" class="btn">Register</a>
-            </div>
+            <button type="submit" class="button">Sign In</button>
         </form>
     </div>
 </body>
